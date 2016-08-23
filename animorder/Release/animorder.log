@@ -1,0 +1,113 @@
+﻿Build started 8/21/2016 8:16:45 PM.
+     1>Project "E:\Course2016\cplusplus\Essential c++\mycode\animorder\animorder\animorder.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"E:\Course2016\cplusplus\Essential c++\mycode\animorder\animorder\\thirdparty\glew\include" /I"E:\Course2016\cplusplus\Essential c++\mycode\animorder\animorder\\thirdparty\glfw\include" /I"E:\Course2016\cplusplus\Essential c++\mycode\animorder\animorder\\thirdparty\glm" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Camera.cpp GLWindow.cpp main.cpp Model.cpp ModelManager.cpp ReOrder.cpp rply.cpp Tipsify.cpp ViewPoints.cpp
+         Camera.cpp
+         GLM: rotate function taking degrees as a parameter is deprecated. #define GLM_FORCE_RADIANS before including GLM headers to remove this message.
+         GLM: perspective function taking degrees as a parameter is deprecated. #define GLM_FORCE_RADIANS before including GLM headers to remove this message.
+         GLWindow.cpp
+     1>GLWindow.cpp(71): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>GLWindow.cpp(84): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>GLWindow.cpp(88): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>GLWindow.cpp(90): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>GLWindow.cpp(94): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>GLWindow.cpp(118): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>GLWindow.cpp(122): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>GLWindow.cpp(124): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>GLWindow.cpp(128): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>GLWindow.cpp(310): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>GLWindow.cpp(327): warning C4244: '+=' : conversion from 'float' to 'int', possible loss of data
+         main.cpp
+         Model.cpp
+     1>Model.cpp(29): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : see declaration of 'strcpy'
+     1>Model.cpp(53): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Model.cpp(113): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Model.cpp(114): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Model.cpp(115): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Model.cpp(116): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         ModelManager.cpp
+         ReOrder.cpp
+     1>ReOrder.cpp(23): warning C4305: 'initializing' : truncation from 'double' to 'float'
+         rply.cpp
+     1>rply.cpp(572): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>rply.cpp(663): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>rply.cpp(696): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : see declaration of 'strcpy'
+     1>rply.cpp(714): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : see declaration of 'strcpy'
+     1>rply.cpp(738): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : see declaration of 'strcpy'
+     1>rply.cpp(763): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : see declaration of 'strcpy'
+     1>rply.cpp(777): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : see declaration of 'strcpy'
+     1>rply.cpp(1414): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : see declaration of 'strcpy'
+     1>rply.cpp(1429): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : see declaration of 'strcpy'
+     1>rply.cpp(1432): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>rply.cpp(1453): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'vsprintf'
+         Tipsify.cpp
+         ViewPoints.cpp
+     1>ViewPoints.cpp(52): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>ViewPoints.cpp(52): warning C4244: 'argument' : conversion from 'double' to 'const float', possible loss of data
+     1>ViewPoints.cpp(77): warning C4018: '<' : signed/unsigned mismatch
+     1>ViewPoints.cpp(97): warning C4244: 'argument' : conversion from 'double' to 'const float', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Course2016\cplusplus\Essential c++\mycode\animorder\animorder\Release\animorder.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"E:\Course2016\cplusplus\Essential c++\mycode\animorder\animorder\thirdparty\glew\lib" /LIBPATH:"E:\Course2016\cplusplus\Essential c++\mycode\animorder\animorder\thirdparty\glfw\lib" glew32.lib glfw3.lib opengl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Course2016\cplusplus\Essential c++\mycode\animorder\animorder\Release\animorder.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Course2016\cplusplus\Essential c++\mycode\animorder\animorder\Release\animorder.lib" /MACHINE:X86 /SAFESEH Release\Camera.obj
+         Release\GLWindow.obj
+         Release\main.obj
+         Release\Model.obj
+         Release\ModelManager.obj
+         Release\ReOrder.obj
+         Release\rply.obj
+         Release\Tipsify.obj
+         Release\ViewPoints.obj
+     1>GLWindow.obj : error LNK2001: unresolved external symbol __imp____glewBindBuffer
+     1>GLWindow.obj : error LNK2001: unresolved external symbol _glfwInit
+     1>GLWindow.obj : error LNK2001: unresolved external symbol __imp____glewBufferSubData
+     1>GLWindow.obj : error LNK2001: unresolved external symbol __imp____glewVertexAttribPointer
+     1>GLWindow.obj : error LNK2001: unresolved external symbol __imp____glewCreateShader
+     1>GLWindow.obj : error LNK2001: unresolved external symbol __imp____glewGetShaderInfoLog
+     1>GLWindow.obj : error LNK2001: unresolved external symbol __imp__glewInit@0
+     1>GLWindow.obj : error LNK2001: unresolved external symbol __imp____glewLinkProgram
+     1>GLWindow.obj : error LNK2001: unresolved external symbol __imp____glewCompileShader
+     1>GLWindow.obj : error LNK2001: unresolved external symbol __imp____glewGenVertexArrays
+     1>GLWindow.obj : error LNK2001: unresolved external symbol _glfwCreateWindow
+     1>GLWindow.obj : error LNK2001: unresolved external symbol __imp____glewBindRenderbuffer
+     1>GLWindow.obj : error LNK2001: unresolved external symbol _glfwMakeContextCurrent
+     1>GLWindow.obj : error LNK2001: unresolved external symbol __imp____glewUseProgram
+     1>GLWindow.obj : error LNK2001: unresolved external symbol __imp____glewShaderSource
+     1>GLWindow.obj : error LNK2001: unresolved external symbol __imp____glewFramebufferRenderbuffer
+     1>GLWindow.obj : error LNK2001: unresolved external symbol __imp____glewBufferData
+     1>GLWindow.obj : error LNK2001: unresolved external symbol __imp____glewVertexAttribDivisor
+     1>GLWindow.obj : error LNK2001: unresolved external symbol __imp____glewBindVertexArray
+     1>GLWindow.obj : error LNK2001: unresolved external symbol __imp____glewGetBufferSubData
+     1>GLWindow.obj : error LNK2001: unresolved external symbol _glfwHideWindow
+     1>GLWindow.obj : error LNK2001: unresolved external symbol __imp____glewGetAttribLocation
+     1>GLWindow.obj : error LNK2001: unresolved external symbol __imp____glewGenRenderbuffers
+     1>GLWindow.obj : error LNK2001: unresolved external symbol __imp____glewDrawElementsInstanced
+     1>GLWindow.obj : error LNK2001: unresolved external symbol __imp____glewGenFramebuffers
+     1>GLWindow.obj : error LNK2001: unresolved external symbol __imp____glewBindBufferBase
+     1>GLWindow.obj : error LNK2001: unresolved external symbol _glfwSwapBuffers
+     1>GLWindow.obj : error LNK2001: unresolved external symbol __imp____glewBindFramebuffer
+     1>GLWindow.obj : error LNK2001: unresolved external symbol __imp____glewGenBuffers
+     1>GLWindow.obj : error LNK2001: unresolved external symbol _glfwWindowHint
+     1>GLWindow.obj : error LNK2001: unresolved external symbol __imp____glewRenderbufferStorage
+     1>GLWindow.obj : error LNK2001: unresolved external symbol __imp____glewGetShaderiv
+     1>GLWindow.obj : error LNK2001: unresolved external symbol _glfwTerminate
+     1>GLWindow.obj : error LNK2001: unresolved external symbol __imp____glewCreateProgram
+     1>GLWindow.obj : error LNK2001: unresolved external symbol __imp____glewEnableVertexAttribArray
+     1>GLWindow.obj : error LNK2001: unresolved external symbol __imp____glewAttachShader
+     1>GLWindow.obj : error LNK2001: unresolved external symbol __imp____glewCheckFramebufferStatus
+     1>E:\Course2016\cplusplus\Essential c++\mycode\animorder\animorder\Release\animorder.exe : fatal error LNK1120: 37 unresolved externals
+     1>Done Building Project "E:\Course2016\cplusplus\Essential c++\mycode\animorder\animorder\animorder.vcxproj" (Rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.59

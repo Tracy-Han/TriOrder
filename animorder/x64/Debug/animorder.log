@@ -1,0 +1,31 @@
+﻿Build started 8/23/2016 3:39:52 PM.
+     1>Project "D:\triorder\triorder\animorder\animorder.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /ID:\triorder\triorder\animorder\thirdparty\glew\include /ID:\triorder\triorder\animorder\thirdparty\glfw\include /ID:\triorder\triorder\animorder\thirdparty\glm /Zi /nologo /W3 /WX- /Od /GL /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt ReOrder.cpp
+         ReOrder.cpp
+     1>d:\triorder\triorder\animorder\Model.h(66): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\triorder\triorder\animorder\Model.h(71): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\triorder\triorder\animorder\ViewPoints.h(41): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>ReOrder.cpp(51): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>ReOrder.cpp(54): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(230) : see declaration of 'fscanf'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\triorder\triorder\animorder\x64\Debug\animorder.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:D:\triorder\triorder\animorder\thirdparty\glew\lib /LIBPATH:D:\triorder\triorder\animorder\thirdparty\glfw\lib glew32.lib glfw3.lib opengl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\triorder\triorder\animorder\x64\Debug\animorder.pdb" /SUBSYSTEM:CONSOLE /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\triorder\triorder\animorder\x64\Debug\animorder.lib" /MACHINE:X64 x64\Debug\Camera.obj
+         x64\Debug\GLWindow.obj
+         x64\Debug\main.obj
+         x64\Debug\Model.obj
+         x64\Debug\ModelManager.obj
+         x64\Debug\ReOrder.obj
+         x64\Debug\rply.obj
+         x64\Debug\Tipsify.obj
+         x64\Debug\ViewPoints.obj
+     1>LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+         Generating code
+         Finished generating code
+         animorder.vcxproj -> D:\triorder\triorder\animorder\x64\Debug\animorder.exe
+     1>Done Building Project "D:\triorder\triorder\animorder\animorder.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.40

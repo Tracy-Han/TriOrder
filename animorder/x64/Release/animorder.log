@@ -1,0 +1,37 @@
+﻿Build started 8/23/2016 4:25:35 PM.
+     1>Project "D:\triorder\triorder\animorder\animorder.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /ID:\triorder\triorder\animorder\\thirdparty\glew\include /ID:\triorder\triorder\animorder\\thirdparty\glfw\include /ID:\triorder\triorder\animorder\\thirdparty\glm /Zi /nologo /W3 /WX- /O2 /Oi /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt Model.cpp main.cpp
+         Model.cpp
+     1>d:\triorder\triorder\animorder\Model.h(66): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\triorder\triorder\animorder\Model.h(71): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>Model.cpp(31): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : see declaration of 'strcpy'
+     1>Model.cpp(55): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Model.cpp(115): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Model.cpp(116): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Model.cpp(117): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Model.cpp(118): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         main.cpp
+     1>d:\triorder\triorder\animorder\ViewPoints.h(41): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\triorder\triorder\animorder\Model.h(66): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>d:\triorder\triorder\animorder\Model.h(71): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>main.cpp(11): warning C4305: 'argument' : truncation from 'double' to 'float'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\triorder\triorder\animorder\x64\Release\animorder.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:D:\triorder\triorder\animorder\thirdparty\glew\lib /LIBPATH:D:\triorder\triorder\animorder\thirdparty\glfw\lib glew32.lib glfw3.lib opengl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\triorder\triorder\animorder\x64\Release\animorder.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\triorder\triorder\animorder\x64\Release\animorder.lib" /MACHINE:X64 x64\Release\Camera.obj
+         x64\Release\GLWindow.obj
+         x64\Release\main.obj
+         x64\Release\Model.obj
+         x64\Release\ModelManager.obj
+         x64\Release\ReOrder.obj
+         x64\Release\rply.obj
+         x64\Release\Tipsify.obj
+         x64\Release\ViewPoints.obj
+         Generating code
+         Finished generating code
+         animorder.vcxproj -> D:\triorder\triorder\animorder\x64\Release\animorder.exe
+     1>Done Building Project "D:\triorder\triorder\animorder\animorder.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.76
